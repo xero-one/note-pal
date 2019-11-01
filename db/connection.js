@@ -1,4 +1,4 @@
-/*Welcome to the server connection js file!!!*/
+/*Welcome to the connection js file!!!*/
 
 /*After installing mysql tell javascript to init*/
 const mysql = require("mysql");

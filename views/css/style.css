@@ -1,0 +1,33 @@
+.note-color {
+    width: 10%;
+    height: auto;
+}
+
+/*Junk spaces (start)-----------------------------------*/
+.blank-space-1 {
+    width: 100%;
+    height: 500px;
+}
+
+.blank-space-2 {
+    width: auto;
+    height: 40vh;
+}
+
+.blank-space-3 {
+    width: auto;
+    height: 5vh;
+}
+
+.blank-space-4 {
+    width: auto;
+    height: 15vh;
+}
+/*Junk section (end)-----------------------------------*/
+
+.test {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    resize: vertical;
+    overflow: auto;
+}

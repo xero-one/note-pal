@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NotePal</title>
+
+        <!--Materialize Compiled and minified CSS Link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="views/css/style.css">
+        <link rel="stylesheet" href="views/css/reset.css">
+</head>
+<body>
+    <div class="row whole-page-div">
+        <br><br><br><br><br>
+        <div class="row 12">
+                <div class="col s6">
+                    <div calss="note-div">
+                            <div class="row">
+                                    <div class="col s12 m6">
+                                      <div class="card blue">
+                                        <div class="card-content white-text">
+                                          <span class="card-title">
+                                                <input type="hidden" id="note_id">
+                                                <input type="hidden" id="color_id" value="5">
+                                                <input type="text" id="note_title" class="note-title" placeholder="Note Title" maxlength="50">  
+                                            </span>
+                                          <p><textarea id="note_text" class="note-text" placeholder="Note" maxlength="300"></textarea></p>
+                                        </div>
+
+                                        <div class="card-action">
+                                            <div class="col s1 circle-red" title="Note Color" color="red" color_id="1">
+                                                <svg width="20px" height="20px" viewBox="0 0 334 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                                    <g transform="matrix(1,0,0,1,0,1)">
+                                                        <g transform="matrix(1,0,0,1,0,-0.0166667)">
+                                                            <g id="red-circle" serif:id="red circle" transform="matrix(1.6597,0,0,1.6597,-183.369,-298.703)">
+                                                                <circle cx="210.903" cy="280.395" r="100.42" style="fill:rgb(241,151,192);"/>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="col s1 circle-orange" title="Note Color" color="orange" color_id="2">
+                                                    <svg width="20px" height="20px" viewBox="0 0 334 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                                        <g transform="matrix(1,0,0,1,-333,1)">
+                                                            <g transform="matrix(1,0,0,1,0,-0.0166667)">
+                                                                <g id="orange-circle" serif:id="orange circle" transform="matrix(1.6597,0,0,1.6597,149.965,-298.703)">
+                                                                    <circle cx="210.903" cy="280.395" r="100.42" style="fill:rgb(254,201,167);"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>                                                    
+                                            </div>
+                                            <div class="col s1 circle-yellow" title="Note Color" color="yellow" color_id="3">
+                                                    <svg width="20px" height="20px" viewBox="0 0 334 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                                        <g transform="matrix(1,0,0,1,-666,1)">
+                                                            <g transform="matrix(1,0,0,1,0,-0.0166667)">
+                                                                <g id="yellow-circle" serif:id="yellow circle" transform="matrix(1.6597,0,0,1.6597,483.298,-298.703)">
+                                                                    <circle cx="210.903" cy="280.395" r="100.42" style="fill:rgb(254,253,151);"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>                                            
+                                            </div>
+                                            <div class="col s1 circle-green" title="Note Color" color="green" color_id="4">
+                                                    <svg width="20px" height="20px" viewBox="0 0 334 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                                        <g transform="matrix(1,0,0,1,-1000,1)">
+                                                            <g transform="matrix(1,0,0,1,0,-0.0166667)">
+                                                                <g id="green-circle" serif:id="green circle" transform="matrix(1.6597,0,0,1.6597,816.631,-298.703)">
+                                                                    <circle cx="210.903" cy="280.395" r="100.42" style="fill:rgb(165,248,206);"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>                                           
+                                            </div>
+                                            <div class="col s1 circle-blue" title="Note Color" color="blue" color_id="5">
+                                                    <svg width="20px" height="20px" viewBox="0 0 334 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                                        <g transform="matrix(1,0,0,1,-1333,1)">
+                                                            <g transform="matrix(1,0,0,1,0,-0.0166667)">
+                                                                <g id="blue-circle" serif:id="blue circle" transform="matrix(1.6597,0,0,1.6597,1149.96,-298.703)">
+                                                                    <circle cx="210.903" cy="280.395" r="100.42" style="fill:rgb(197,235,254);"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>                                                                                                     
+                                            </div>
+                                            <div class="col s1 circle-violet" title="Note Color" color="purple" color_id="6">
+                                                    <svg width="20px" height="20px" viewBox="0 0 334 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                                        <g transform="matrix(1,0,0,1,-1666,1)">
+                                                            <g transform="matrix(1,0,0,1,0,-0.0166667)">
+                                                                <g id="violet-circle" serif:id="violet circle" transform="matrix(1.6597,0,0,1.6597,1483.3,-298.703)">
+                                                                    <circle cx="210.903" cy="280.395" r="100.42" style="fill:rgb(180,159,220);"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>                                                   
+                                            </div>
+                                        </div>
+                                         <span style="float:right;"><span id="message"></span>&nbsp;&nbsp;<i class="fa fa-undo" title="Clear Note"></i><i class="fa fa-save" title="Save Note"></i></span>
+                                        <br><br>
+                                      </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col s6">
+                        <div id="savedNotes"></div>
+                </div>
+        </div>
+        <div class="col s12 blank-space-1"></div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+</body>
+</html>

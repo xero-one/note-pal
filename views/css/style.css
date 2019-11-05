@@ -26,6 +26,10 @@
 }
 /*Junk section (end)-----------------------------------*/
 
+.heading {
+    text-align: center;
+}
+
 nav {
     padding-top: 1vh;
     padding-bottom: 1vh;

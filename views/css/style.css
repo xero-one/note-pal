@@ -26,7 +26,7 @@
 }
 /*Junk section (end)-----------------------------------*/
 
-.heading {
+.landing-page-heading-text {
     text-align: center;
 }
 
@@ -46,6 +46,13 @@ nav {
 .text-logo {
     padding-bottom: 6vh;
     padding-left: 1vw;
+}
+
+.btn {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
 }
 
 .card {

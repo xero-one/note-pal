@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 970 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-515,-894)">
+<svg width="100%" height="100%" viewBox="0 0 971 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-514,-894)">
         <g transform="matrix(1,0,0,1,69.8781,-3.47649)">
             <g id="Notepal--Text-Logo---Body-" serif:id="Notepal (Text Logo) [Body]" transform="matrix(1,0,0,1,26.9677,0)">
                 <g transform="matrix(0.733054,0,0,0.733054,-19.2824,344.613)">
                     <text x="649.176px" y="1000px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:278.774px;">NOTEP<tspan x="1588.81px 1774.75px " y="1000px 1000px ">AL</tspan></text>
                 </g>
-                <g id="Notepal" transform="matrix(0.969132,0.246542,-0.379427,1.49149,383.61,-743.597)">
+                <g id="Notepal" transform="matrix(0.969016,0.246999,-0.38013,1.49131,384.335,-743.601)">
                     <rect x="480.633" y="1021.02" width="167.907" height="115.368" style="fill:rgb(0,0,255);"/>
                     <g transform="matrix(0.733054,0.000224639,-0.000345718,0.476321,15.825,649.744)">
                         <text x="649.176px" y="1000px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:278.774px;fill:rgb(255,255,239);">N</text>
+                    </g>
+                    <g id="Note-Spiral" serif:id="Note Spiral" transform="matrix(1,0,0,0.649775,-53.7382,428.282)">
+                        <rect x="534.371" y="912.225" width="167.907" height="43.041"/>
                     </g>
                 </g>
             </g>

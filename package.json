@@ -1,0 +1,24 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "my custom note taker website and app ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test here",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bxxdyz/Note-Taker.git"
+  },
+  "keywords": [
+    "Note",
+    "Taker"
+  ],
+  "author": "bxxdyz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bxxdyz/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/bxxdyz/Note-Taker#readme"
+}

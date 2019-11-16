@@ -3,10 +3,10 @@
 const db = require("./../db/connection");
 
 /*"module.exports" export the route so the JQUERY functions along with the data its manipulating it's available in other parts of the app*/
-module.exports={
+module.exports = {
   /*JQERY select a note function to select * ALL data in the mysql / server */  
   fetchAllNotes : function(req, res){
-    db.query("SELECT * FROM notes order by created_dt desc,-modified_dt desc",function(err,dbNotesData){
+    db.query("SELECT * FROM notes order by created_dt desc,-modified_dt desc",function(err, dbNotesData){
       if(err) res.json(err);
       res.json(dbNotesData);
       console.log(dbNotesData);
@@ -14,7 +14,7 @@ module.exports={
   },
   /*JQERY select a note function to select data in the mysql / server */
   fetchNote : function(req, res){
-    db.query("SELECT * FROM notes WHERE ?",[req.query],function(err,dbNotesData){
+    db.query("SELECT * FROM notes WHERE ?",[req.query],function(err, dbNotesData){
       if(err) res.json(err);
       res.json(dbNotesData);
     });

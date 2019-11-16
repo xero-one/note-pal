@@ -11,11 +11,11 @@ var PORT = process.env.PORT || 3000;
 /*Global constant to call function for npm express to do work*/
 const app = express();
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 /*Command express to use our static file in our public folder route*/
-app.use(express.static("views"));
+app.use(express.static("public"));
 
 /*Command to pass or the homedirectory and routes directory data to the HOST*/
 app.use("/NoteTaker",routes);

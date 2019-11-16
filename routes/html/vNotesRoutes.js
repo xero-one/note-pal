@@ -5,6 +5,8 @@ const express = require("express");
 /*We use the "express.router" class to create route handlers, basically init a routing system*/
 const router = express.Router();
 
+const path = require("path");
+
 const getPath = (fileName) =>{
     return "./../../views/html/"+fileName;
   };

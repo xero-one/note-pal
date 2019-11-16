@@ -6,7 +6,7 @@ const express = require("express");
 const router = express.Router();
 
 /*Set a constant variable to require the "notesRoutes.js" file for the URL*/
-const notesRoutes = require("./notesRoutes.js");
+const notesRoutes = require("./notesRoutes");
 
 /*Apply the routing to "/" or home and pass the constant variable for the "notesRoutes.js"*/
 router.use("/",notesRoutes);

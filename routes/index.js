@@ -7,7 +7,7 @@ const router = express.Router();
 
 
 /*Set constant variable to call all api information from directory at "/api"*/
-const apiRoutes = reuire("./api");
+const apiRoutes = require("./api");
 
 /*Set constant variable to call all essential html information from directory at "/html"*/
 const htmlRoutes = require("./html");

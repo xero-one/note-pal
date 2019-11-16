@@ -8,7 +8,7 @@ const router = express.Router();
 const path = require("path");
 
 const getPath = (fileName) =>{
-    return "./../../views/html/"+fileName;
+    return "./../../public/html/"+fileName;
   };
   
   /*Set the "/" default/home path of the url to say "landing.html" which is the html code file for the landing page*/

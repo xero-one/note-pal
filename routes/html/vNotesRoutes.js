@@ -11,12 +11,12 @@ const getPath = (fileName) =>{
   
   /*Set the "/" default/home path of the url to say "landing.html" which is the html code file for the landing page*/
   router.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, getPath("landing-page.html")));
+    res.sendFile(path.join(__dirname, getPath("note-pal-landing-page.html")));
   });
   
   /*Set the "/" daughter path of the url to say "notes.html" which is the html code file for the daughter page "notes"*/
   router.get("/notes", function(req, res) {
-    res.sendFile(path.join(__dirname, getPath("notes.html")));
+    res.sendFile(path.join(__dirname, getPath("note-pal-home.html")));
   });
   
   router.get("/instructions", function(req, res) {

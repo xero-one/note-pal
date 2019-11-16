@@ -1,8 +1,8 @@
 /* Here is the body api or "notesRoutes.js" for the api routing*/
 /*Set express to a constant global variable and init the npm express to run with this route body javascript code*/
+const router = require("express").Router();
 
-/*We use the "express.router" class to create route handlers, basically init a routing system*/
-const router = express.Router();
+const notesController = require("../../controllers/notesController");
 
 router.route("/getNotes").get(notesController.fetchAllNotes);
 

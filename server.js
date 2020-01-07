@@ -6,7 +6,7 @@ const routes = require("./routes");
 const express = require("express");
 
 /*Global variable the developer can maniputlat to establish a port for connection to Heroku*/
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 /*Global constant to call function for npm express to do work*/
 const app = express();

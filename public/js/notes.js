@@ -37,7 +37,7 @@ const makeNoteCard = function(dbNote) {
     var date = dbNote.modify_date?dbNote.modify_date:dbNote.create_date;
     var creationDate = moment(date,'YYYY-MM-DD HH:mm:ss').format("Do MMM[']YY[, ]h:mm a");
 
-    $card = $("<div class='card'>");
+    $card = $("<div class='collapsed-note'>");
 
     $card.attr("id",dbNote.note_id);
 

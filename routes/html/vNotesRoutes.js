@@ -7,7 +7,7 @@ const router = express.Router();
 
 const path = require("path");
 
-const getPath = (fileName) =>{
+const getPath = (fileName) => {
     return "./../../public/html/"+fileName;
   };
   

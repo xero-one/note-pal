@@ -71,6 +71,16 @@ a{
     background: yellow;
 }
 
+.collapsed-note {
+    width: 100vh;
+    height: 10pt;
+}
+
+.expanded-note {
+    width: 100vh;
+    height: auto;
+}
+
 .card {
     background: #2196F3;
 }

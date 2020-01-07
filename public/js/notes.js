@@ -33,9 +33,9 @@ const displayNotes = function(noteData) {
 };
 
 /*Function that creates the cards*/
-const makeNoteCard = function(dbNote) {
-    var date = dbNote.modify_date?dbNote.modify_date:dbNote.create_date;
-    var creationDate = moment(date,'YYYY-MM-DD HH:mm:ss').format("Do MMM[']YY[, ]h:mm a");
+const makeNoteCard = (dbNote) => {
+    const date = dbNote.modify_date?dbNote.modify_date:dbNote.create_date;
+    const creationDate = moment(date,'YYYY-MM-DD HH:mm:ss').format("Do MMM[']YY[, ]h:mm a");
 
     $card = $("<div class='collapsed-note'>");
 
@@ -95,13 +95,15 @@ const makeNoteCard = function(dbNote) {
     </div>
     </span>`);
 
-    $cardBody = $("<p><textarea id='note_text' class='note-text' placeholder='Note' maxlength='300'></textarea></p>");
+    $cardBody = $("<p><textarea id='note_text' class='note-text' placeholder='Note' style='width: 100%; height: auto;' maxlength='300'></textarea></p>");
    
     $cardBody.append(dbNote.note_text);
   
-    $collapseDiv = $("<div class='collapse'>");
-    $collapseDiv.attr("id","collapse"+dbNote.note_id);
+    $collapseDiv = $("<div class='collapse' style='width: 100%; height: 10px;'>");
+    $collapseDiv.attr("id","collapse" + dbNote.note_id);
     $collapseDiv.append($cardBody);
+
+
       
     $card.append($cardTitle,$collapseDiv);
      

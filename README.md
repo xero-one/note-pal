@@ -1,6 +1,4 @@
-<p align="center">
-  <img width="20%" height="20%" src="./public/images/logo/static-files/Notepal-text-logo.svg">
-</p>
+- ![](./public/images/logo/static-files/Notepal-text-logo.svg)
 <br>
 <hr>
 <br>
@@ -25,4 +23,4 @@ Welcome fellow coders and viewers! Welcome to our note taking app that is design
     <li><a href="https://www.npmjs.com/package/node" target="_blank">Node</a></li>
 </ul>
 <br>
-<h3>Link to the <a href="https://note-pal.herokuapp.com/NotePal/" target="_blank">NotPal project</a></h3>
+<h3>Link to the <a href="https://note-pal.herokuapp.com/NotePal/" target="_blank">NotePal project </a></h3>

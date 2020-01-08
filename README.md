@@ -1,4 +1,4 @@
-- ![](./public/images/logo/static-files/Notepal-text-logo.svg)
+- ![](public/images/logo/static-files/Notepal-text-logo.svg)
 <br>
 <hr>
 <br>

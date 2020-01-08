@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="20%" height="20%" src="public/images/logo/static-files/Notepal-text-logo.svg">
+  <img width="20%" height="20%" src="./public/images/logo/static-files/Notepal-text-logo.svg">
 </p>
 <br>
 <hr>

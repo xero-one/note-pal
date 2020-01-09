@@ -1,4 +1,4 @@
-- ![](public/images/logo/static-files/Notepal-text-logo.svg)
+<h1>NotePal</h1>
 <br>
 <hr>
 <br>

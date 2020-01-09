@@ -1,4 +1,4 @@
-<h1>NotePal</h1>
+<h1 align="center">NotePal</h1>
 <br>
 <hr>
 <br>

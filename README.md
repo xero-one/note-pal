@@ -22,5 +22,6 @@ Welcome fellow coders and viewers! Welcome to our note taking app that is design
     <li><a href="https://www.npmjs.com/package/path" target="_blank">Path</a></li>
     <li><a href="https://www.npmjs.com/package/node" target="_blank">Node</a></li>
 </ul>
+
 <br>
-<h3>Link to the <a href="https://note-pal.herokuapp.com/NotePal/" target="_blank">NotePal project </a></h3>
+<h3 align="center">Link to the <a href="https://note-pal.herokuapp.com/NotePal/" target="_blank">NotePal project </a></h3>

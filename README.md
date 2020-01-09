@@ -1,7 +1,5 @@
 <h1 align="center">NotePal</h1>
 <br>
-<hr>
-<br>
 <h3>
 Welcome fellow coders and viewers! Welcome to our note taking app that is designed to save ideas or personal messages. In this app you will be able to compose a note, save it or come back to edit it later. This note logging app has a beautiful interface that can change color based on the users preference. 
 </h3>

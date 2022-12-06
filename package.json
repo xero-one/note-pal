@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/bxxdyz/Note-Taker#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "modules": "^0.4.0",
     "mysql": "^2.17.1",
     "node": "^12.9.1",
